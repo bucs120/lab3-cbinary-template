@@ -16,7 +16,7 @@ int compareArrays(int arr1[32], int arr2[32]){
     for(int i = 0; i < sizeof(int); i++){
         if(arr1[i] != arr2[i]) return 0;
     }
-    retunr 1;
+    return 1;
 }
 int main(){
     ///////// PART A Tests /////////
